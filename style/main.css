@@ -1,0 +1,137 @@
+:root{
+    --rosa: #f1b9dc;
+    --white: #fcfafa;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elemento base*/
+body{
+    background: #f1b9dc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e0064f;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+header .barra{
+    margin-bottom: 10px;
+}
+
+header.logo{
+    margin-left: 5px;    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #e0064f;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    font-size: 15pt;
+    color:#e0a606;
+    ;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    
+    background: url('/img/malalala.png');
+    background-repeat: no-repeat;
+    height: 400px;    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: baseline;
+}
+
+.titulo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 16pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e0064f;
+}
+
+.botao{
+    background-color: rgba(245, 229, 229, 0.5);
+    border:none;
+    color:#e0064f;
+    
+
+    padding: 10px 20px;    
+    margin-right: 15px;    
+    font-size: 12px;
+    cursor: pointer;
+    transition: 3s ease all; 
+
+}
+
+.botao:hover{
+    background-color: rgb(199, 83, 180);
+    font-weight: 700;
+    color: #fcfafa;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left:20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.botao1{
+    background-color: rgb(211, 107, 164);
+    border:none;
+    font-family: cursive;
+    font-weight: 500;
+    color:#fcfafa;
+    text-align: left;
+    
+
+    padding: 10px 10px;    
+    margin-right: 15px;    
+    font-size: 12px;
+    cursor: pointer;
+    transition: 3s ease all; 
+
+}
+
+.botao1:hover{
+    background-color: rgb(75, 9, 37);
+    font-weight: 700;
+    color:#7e9e0a
+}
+
+.botao1 i {
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;    
+    align-items: baseline;
+    
+}
